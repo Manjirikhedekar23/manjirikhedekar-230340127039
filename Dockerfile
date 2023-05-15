@@ -1,5 +1,5 @@
 FROM python
-RUN mkdir test
-COPY python_program.py /test/
-CMD ["python","/test/python_program.py"]
+RUN mkdir nest
+COPY pythonque2.py /test/
+CMD ["python","/test/pythonque2.py"]
 
